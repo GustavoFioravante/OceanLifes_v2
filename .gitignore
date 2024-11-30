@@ -1,0 +1,47 @@
+# Dependências
+node_modules/
+dependencies/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Nativo
+*.orig
+*.jks
+*.p8
+*.p12
+*.key
+.mobileprovision
+
+# Metro
+.metro-health-check
+
+# Debugging
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+.pem
+
+# Arquivos de ambiente local
+.env.local
+.env.
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Editor e Sistema
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Git
+.git/

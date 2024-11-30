@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "OceanLifes",
+    "slug": "OceanLifes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.jpeg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon2.webp",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "newArchEnabled": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-adaptativa.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "newArchEnabled": true
+    },
+    "plugins": ["expo-font"]
+  }
+}
