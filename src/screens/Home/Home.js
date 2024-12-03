@@ -9,7 +9,7 @@ import { ContainerText, Text, TitleText, AdLink, AdLinkText } from './styles'
 const FAKE_DATA_CHARACTERES = [
   {
     id: 0,
-    imageURL:'https://cdn.discordapp.com/attachments/1289674036686753855/1304099683710537769/GustavoADS.jpg?ex=674bd2b9&is=674a8139&hm=641da88c843ccf39f21af755b69535cd96766fca088553d50e9e09d96b2d52bf&',
+    imageURL:'https://64.media.tumblr.com/73aa34c35d6698a4d08525ac36382e5b/d7261788af8aa4b3-35/s400x600/f603472e204ec27c4a9cd1795c964976100463ca.jpg',
     title: 'Programador e Gerente do Projeto',
     showTag: true,
     type: 'Bio',
@@ -17,21 +17,23 @@ const FAKE_DATA_CHARACTERES = [
   },
   {
     id: 1,
-    imageURL:'https://cdn.discordapp.com/attachments/1289674036686753855/1304096355383382036/GabeADS.jpg?ex=674bcfa0&is=674a7e20&hm=8779b0d8f450ed344a4513bc2af7c54e9a3c0ce92e29a796f5731c4f3cb548ff&',    title: 'Gerente do Projeto e Coordenador',
+    imageURL:'https://64.media.tumblr.com/f476d2fec90a72bf8c6ecf64c015d53d/d7261788af8aa4b3-76/s540x810/8201608a562a2d2f6d9403bb1da148ec94aed98f.jpg',
+    title: 'Gerente do Projeto e Coordenador',
     showTag: true,
     type: 'Bio',
     subtitle: 'Gabriel Santana Leite',
   },
   {
     id: 2,
-    imageURL:'https://cdn.discordapp.com/attachments/1289674036686753855/1304096354976665680/SalatielADS.jpg?ex=674bcf9f&is=674a7e1f&hm=142591c43ccc79991c9ac9c3e17b79edcf3dbd7ec17e14c55a6445df81c49675&',    title: 'Coordenador',
+    imageURL:'https://64.media.tumblr.com/377b75c695551d788f54ac4b9b249745/d7261788af8aa4b3-dd/s400x600/4d0e283ecbcefbc146d32149c9f3847c97483034.jpg',
+    title: 'Coordenador',
     showTag: true,
     type: 'Bio',
     subtitle: 'Salatiel Simião de Oliveira',
   },
   {
     id: 3,
-    imageURL:'https://cdn.discordapp.com/attachments/1289674036686753855/1304096355731374100/CarlosADS.jpg?ex=674bcfa0&is=674a7e20&hm=800ef66085761c6f63e4c499417c62b10cb16de7894b2c21d07fffaaefff32f9&',
+    imageURL: 'https://64.media.tumblr.com/a036c9fa373203492be03c5032237c2c/d7261788af8aa4b3-53/s400x600/0e514d852c3e7c8627f0f1d321650e1c6f7de8b4.jpg',
     title: 'Analista',
     showTag: true,
     type: 'Bio',
@@ -39,7 +41,7 @@ const FAKE_DATA_CHARACTERES = [
   },
   {
     id: 4,
-    imageURL:'https://cdn.discordapp.com/attachments/1289674036686753855/1304096354553036850/LucasADS.jpg?ex=674bcf9f&is=674a7e1f&hm=b8ca8c63842e5e4921debda3993b86884614cf9959fd335392dd706ec1f5f52a&',   
+    imageURL:'https://64.media.tumblr.com/6ede4f14fde0ccd4c63fde23fba99dfc/d7261788af8aa4b3-a9/s1280x1920/757c20121cd2ac8fa7de8b2d1c7726c7c5463a8b.jpg',   
      title: 'Analista',
     showTag: true,
     type: 'Bio',
@@ -48,7 +50,7 @@ const FAKE_DATA_CHARACTERES = [
   {
     id: 14,
     imageURL:
-      'https://cdn.discordapp.com/attachments/1289674036686753855/1307487373294305351/LeoADS.jpg?ex=674b9f81&is=674a4e01&hm=7c51367c7d85d7282333e0c486ce972aa92362a6f93757f0d33505364a948c6e&',
+      'https://64.media.tumblr.com/10344afb2e202ff5e6b2fba9a68acb82/d7261788af8aa4b3-1f/s540x810/75b6a647e336cb7b4e141bceaa55fed7e66faeab.jpg',
     title: 'Analista',
     showTag: true,
     type: 'Bio',
@@ -59,71 +61,62 @@ const FAKE_DATA_CHARACTERES = [
 const FAKE_DATA_ICONS = [
   {
     id: 5,
-    imageURL:
-      'https://cdn.discordapp.com/attachments/1289674036686753855/1307556624965177364/poluicao-marinha-325737683.jpg?ex=673abc80&is=67396b00&hm=f052886e319499de9557daef382731b7e74ed9665cb35b7a9b6629d764420647&',
+    imageURL:'https://64.media.tumblr.com/74544a8808bb47af9f7d4828a129fb72/d7261788af8aa4b3-53/s250x400/d261ba540736b05a61df6b751a424b6b0e441c6f.pnj',
     title: 'Combatendo a Poluição Marinha',
     showTag: false,
   },
   {
     id: 6,
-    imageURL:
-      'https://cdn.discordapp.com/attachments/1289674036686753855/1307556626588499988/trafico.jpg?ex=673abc81&is=67396b01&hm=57ba5216635500bbf0913ea0d62b43baedb6a696aee82b9ff1ccc5bcfca604a5&',
+    imageURL:'https://64.media.tumblr.com/261cd9f17949822082ded060d9192051/d7261788af8aa4b3-ba/s250x400/274d30e8ade35f0bf324f8bdae8f9319f3873612.pnj',
     title: 'Tráfico Ilegal de Espécies Marinhas',
     description: 'null',
     showTag: false,
   },
   {
     id: 7,
-    imageURL:
-      'https://cdn.discordapp.com/attachments/1289674036686753855/1307556624516255794/pescapredatorio.jpg?ex=673abc80&is=67396b00&hm=17146ab00a2f0cb1301a0e98f6204a69580aa3f53f901c69a1ed39e0c8bddc27&',
+    imageURL:'https://64.media.tumblr.com/7d0a7790b3a28f067d47ff9ceb9dde3b/d7261788af8aa4b3-46/s250x400/c68a419b14a93632b34a5f5d4fc9550453972f1d.pnj',
     title: 'Ameaça da Pesca Predatória',
     description: 'null',
     showTag: false,
   },
   {
     id: 8,
-    imageURL:
-      'https://cdn.discordapp.com/attachments/1289674036686753855/1307556625980194826/recifesecorais.jpg?ex=673abc80&is=67396b00&hm=1f4341f28a476467e64696c5b6b7937b75fd8ae1aa7e88077c3a8f9b50e2d65f&',
+    imageURL:'https://64.media.tumblr.com/51d601292acf7ff93dadd72b43b48bb8/d7261788af8aa4b3-78/s250x400/ac8d28c65b19e41a03faf0c51088e9d80e90e0fd.pnj',
     title: 'Destruição dos Recifes de Corais',
     description: 'null',
     showTag: false,
   },
   {
     id: 9,
-    imageURL:
-      'https://cdn.discordapp.com/attachments/1289674036686753855/1307556626349166602/sobrepesca-Chilean_purse_seine-C.-Ortiz-Rojas.jpg?ex=673abc80&is=67396b00&hm=0d9250f747e9bfd1551c66c402d3944db82db2f64eda9f7e2ab0e53cb818946c&',
+    imageURL:'https://64.media.tumblr.com/205c0d9ba551d8858c8862551499b196/d7261788af8aa4b3-1d/s250x400/5d03913f11ce6eae6ee5cb0a21d7347ee2aaa659.pnj',
     title: 'Sobrepesca de Espécies',
     description: 'null',
     showTag: false,
   },
   {
     id: 10,
-    imageURL:
-      'https://cdn.discordapp.com/attachments/1289674036686753855/1307556625556701304/poluicaoquimicanosoceanos.jpg?ex=673abc80&is=67396b00&hm=03476cb628f795ff4ea4bee9dcfad1a475348fea88b606c200e478466425f2c4&',
+    imageURL:'https://64.media.tumblr.com/ed7c2559fb885c8f636533c15e64a3b3/d7261788af8aa4b3-cc/s250x400/c3584092930ccc75ecc16b9753e622f45ec2c333.pnj',
     title: 'Poluição Química nos Oceanos ',
     description: 'null',
     showTag: false,
   },
   {
     id: 11,
-    imageURL:
-      'https://cdn.discordapp.com/attachments/1289674036686753855/1307558482047664158/poluicaodeplastico.jpg?ex=673abe3b&is=67396cbb&hm=924b93e6d5a3c623b0e2997b87969683eb19937999da4a4c0ce5c668b3783c6d&',
+    imageURL:'https://64.media.tumblr.com/2cec3bda15fbe3f0c43126eb78fd15a3/d7261788af8aa4b3-b2/s250x400/87c1401d3c0c7141ad834a081d2fd796dda3d380.pnj',
     title: 'Poluição por Plástico',
     description: 'null',
     showTag: false,
   },
   {
     id: 12,
-    imageURL:
-      'https://cdn.discordapp.com/attachments/1289674036686753855/1307556623627063368/exploracaomineralsubmarina.jpg?ex=673abc80&is=67396b00&hm=7815b9788e29a0c7955de89033737bfbe4df68985485b476e1559a512f847aa6&',
+    imageURL:'https://64.media.tumblr.com/0df13ad4df61b3b16c6057ff87fa03a6/d7261788af8aa4b3-db/s250x400/1e79db901cf88285676ce224a060683861a2d87b.pnj',
     title: 'Exploração Mineral Submarina',
     description: 'null',
     showTag: false,
   },
   {
     id: 13,
-    imageURL:
-      'https://cdn.discordapp.com/attachments/1289674036686753855/1307556624130637864/Mudancas-climaticas-por-que-esta-mais-preocupante-scaled-1.jpg?ex=673abc80&is=67396b00&hm=27446a8abb7bb35e1007c7e5742774f04cdadc128daa6c96e5e6edcf4995f30a&',
+    imageURL:'https://64.media.tumblr.com/08c2e1e41d8bb46d9e1b971c97d40144/d7261788af8aa4b3-31/s250x400/0d78ae36546f8fa4b42d9e7b3f473c14b9e38a06.pnj',
     title: 'Mudanças Climáticas',
     description: 'null',
     showTag: false,
@@ -131,11 +124,15 @@ const FAKE_DATA_ICONS = [
 ]
 
 export const Home = () => {
-  const navigation = useNavigation()
+  const navigation = useNavigation();
 
-  const handleIconPress = (id) => {
-    navigation.navigate('Detail', { articleId: id })
-  }
+  const teamData = FAKE_DATA_CHARACTERES;
+
+  const handleIconPress = (id, type) => {
+    if (type !== 'Bio') {
+      navigation.navigate('Detail', { articleId: id });
+    }
+  };;
 
   return (
     <ScreenScrollContainer>
@@ -150,31 +147,38 @@ export const Home = () => {
       />
 
       <WikiList
-        title='EXPLORAR'
+        title="EXPLORAR"
         data={FAKE_DATA_ICONS}
-        onPressItem={(item) => handleIconPress(item.id)}
+        onPressItem={(item) => handleIconPress(item.id, item.type)}
       />
 
-        <AdLink><AdLinkText>Anúncio</AdLinkText></AdLink>
+      <AdLink>
+        <AdLinkText>Anúncio</AdLinkText>
+      </AdLink>
 
       <ContainerText>
         <TitleText>Quem nós somos?</TitleText>
         <Text>
-          Somos uma microempresa iniciando no ramo de Saas. Nosso primeiro projeto está destinado
-          para um movimento de conscientização sobre cuidados a vida marinha e vida sustentável para
-          podermos incentivar futuras gerações a como coexistir com ecossistemas marinhos e
-          preservar o atual catalogo de espécies. este projeto se destina a publico de todas as
-          idades que desejam aprender mais sobre como preservar a flora marítima e sendo um projeto
-          teoricamente *Opensource* (Opensource significa código aberto, em português. Quer dizer
-          que uma aplicação tem seu código aberto e disponível para qualquer pessoa que pretende
-          modificar e até redistribuir o software. Contudo, há restrições importantes quanto a como
-          isso pode ser feito, o que visa a estabelecer certo controle e ordem.) nossos lucros veem
-          através de doações, contribuições e anúncios á fim de aumentarmos o publico alvo e
-          começamos a criar workshops sobre o assunto.
+          Somos uma microempresa iniciando no ramo de Saas. Nosso primeiro
+          projeto está destinado para um movimento de conscientização sobre cuidados a vida
+          marinha e vida sustentável para podermos incentivar futuras gerações a como coexistir com
+          ecossistemas marinhos e preservar o atual catalogo de espécies. Este projeto se destina a
+          público de todas as idades que desejam aprender mais sobre como preservar a flora marítima
+          e sendo um projeto teoricamente *Opensource* (Opensource significa código aberto, em
+          português. Quer dizer que uma aplicação tem seu código aberto e disponível para qualquer
+          pessoa que pretende modificar e até redistribuir o software. Contudo, há restrições
+          importantes quanto a como isso pode ser feito, o que visa a estabelecer certo controle e
+          ordem.) Nossos lucros vêm através de doações, contribuições e anúncios a fim de
+          aumentarmos o público alvo e começarmos a criar workshops sobre o assunto.
         </Text>
 
-        <HomeList title='Conheça mais sobre nossa equipe!' data={FAKE_DATA_CHARACTERES} />
+        <HomeList
+          title="Conheça mais sobre nossa equipe!"
+          data={teamData}
+          onPressItem={null}
+        />
       </ContainerText>
+
 
       <AdLink><AdLinkText>Anúncio</AdLinkText></AdLink>
 

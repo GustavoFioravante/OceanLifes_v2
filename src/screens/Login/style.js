@@ -24,14 +24,14 @@ export const ViewContainer = styled.View`
 export const Overlay = styled.View`
   flex: 1;
   width: ${({ theme }) => theme.metrics.px(350)}px;
-  height: ${({ theme }) => theme.metrics.px(345)}px;
+  height: ${({ theme }) => theme.metrics.px(440)}px;
   border-radius: ${({ theme }) => theme.metrics.px(20)}px;
   background-color: rgba(0, 0, 0, 0.5);
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: ${({ theme }) => theme.metrics.px(390)}px;
-  left: ${({ theme }) => theme.metrics.px(270)}px;
+  top: ${({ theme }) => theme.metrics.px(250)}px;
+  left: ${({ theme }) => theme.metrics.px(210)}px;
 `
 
 export const Title = styled.Text`
@@ -68,11 +68,13 @@ export const Icon = styled.View`
 export const ButtonContainer = styled.View`
   flex-direction: row;
   justify-content: space-between;
-  width: ${({ theme }) => theme.metrics.px(290)}px;
+  width: ${({ theme }) => theme.metrics.px(295)}px;
+  height: ${({ theme }) => theme.metrics.px(50)}px;
   padding-left: ${({ theme }) => theme.metrics.px(10)}px;
   padding-right: ${({ theme }) => theme.metrics.px(10)}px;
-  margin-top: ${({ theme }) => theme.metrics.px(20)}px;
+  margin-top: ${({ theme }) => theme.metrics.px(10)}px;
   margin-right: ${({ theme }) => theme.metrics.px(5)}px;
+  margin-bottom: ${({ theme }) => theme.metrics.px(10)}px;
 `
 
 export const Button = styled.TouchableOpacity`
@@ -94,4 +96,23 @@ export const Message = styled.Text`
   margin-top: ${({ theme }) => theme.metrics.px(20)}px;
   font-size: ${({ theme }) => theme.metrics.px(16)}px;
   color: white;
+`
+export const RememberMeContainer = styled.View`
+  flex-direction: row;
+  align-items: center;
+  margin-top: ${({ theme }) => theme.metrics.px(10)}px;
+`
+
+export const RememberMeText = styled.Text`
+  color: white;
+  font-size: ${({ theme }) => theme.metrics.px(14)}px;
+  margin-left: ${({ theme }) => theme.metrics.px(5)}px;
+`
+
+export const ForgotPasswordText = styled.Text`
+  color: white;
+  font-size: ${({ theme }) => theme.metrics.px(14)}px;
+  text-align: right;
+  margin-top: ${({ theme }) => theme.metrics.px(5)}px;
+  margin-bottom: ${({ theme }) => theme.metrics.px(10)}px;
 `

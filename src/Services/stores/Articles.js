@@ -41,7 +41,7 @@ A poluição afeta não apenas os organismos marinhos, mas também a saúde huma
 Compreender de onde vêm os poluentes permitirá uma abordagem mais direcionada e eficaz no combate ao problema. Por exemplo, algumas áreas são mais afetadas pelo descarte inadequado de resíduos sólidos, enquanto outras enfrentam poluição proveniente da agricultura.
 
 
-<img src="https://123ecos.com.br/wp-content/uploads/2023/04/Mar-de-plastico.jpg"  style="width:700px; height:400px;" />
+<img src="https://www.anselmosantana.com.br/wp-content/uploads/2023/03/Os-impactos-da-poluicao-plastica-nos-oceanos-e-o-que-podemos-fazer-para-ajudar-scaled.jpeg"  style="width:700px; height:400px;" />
 
 ---
 
@@ -58,7 +58,7 @@ A eficácia de acordos internacionais, como a Convenção de Basileia e o Protoc
 ## Qual é a relação entre poluição marinha e mudanças climáticas?
 Mapeando a interconexão entre esses problemas, é possível formular soluções integradas que abordem ambas as questões de forma eficaz.
 
-
+<img src="https://www.vertown.com/uploads/2018/04/polui%c3%a7%c3%a3o-marinha-3.jpg" style="width:700px; height:400px;"/>
 ---
 
 ## Quais são as consequências de longo prazo da poluição marinha para a biodiversidade?

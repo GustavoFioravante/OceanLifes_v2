@@ -3,7 +3,6 @@ import { TouchableOpacity } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 import { Ionicons } from '@expo/vector-icons'
 import FundoImage from '../../../assets/Background.jpeg'
-import { theme } from '../../standart/theme'
 import { GoogleLoginButton } from '../../components/GoogleButton'
 
 import {
@@ -18,12 +17,16 @@ import {
   Overlay,
   ButtonContainer,
   ImageBackground,
+  RememberMeContainer,
+  RememberMeText,
+  ForgotPasswordText,
 } from './style'
 
 export const Login = () => {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
   const [message, setMessage] = useState('')
+  const [rememberMe, setRememberMe] = useState(false) // Estado para "Lembrar de mim"
   const navigation = useNavigation()
 
   const handleSubmit = () => {
@@ -36,45 +39,61 @@ export const Login = () => {
   }
 
   const goToCadastro = () => {
-    navigation.navigate('Cadastro') 
+    navigation.navigate('Cadastro')
+  }
+
+  const handleForgotPassword = () => {
+    navigation.navigate('') // Navega para a tela de recuperação de senha
+  }
+
+  const toggleRememberMe = () => {
+    setRememberMe((prev) => !prev)
   }
 
   return (
     <ImageBackground source={FundoImage}>
-      <Overlay
-        style={{
-          transform: [
-            { translateX: theme.metrics.px(-62) },
-            { translateY: theme.metrics.px(-140) },
-          ],
-        }}
-      >
+      <Overlay>
         <Container>
           <Title>Login</Title>
 
           <InputContainer>
             <InputField
-              placeholder='Email'
+              placeholder="Email"
               value={username}
               onChangeText={setUsername}
-              autoCapitalize='none'
+              autoCapitalize="none"
             />
             <Icon>
-              <Ionicons name='person' size={24} color='gray' />
+              <Ionicons name="person" size={24} color="gray" />
             </Icon>
           </InputContainer>
 
           <InputContainer>
             <InputField
-              placeholder='Senha'
+              placeholder="Senha"
               value={password}
               onChangeText={setPassword}
               secureTextEntry
             />
             <Icon>
-              <Ionicons name='lock-closed' size={24} color='gray' />
+              <Ionicons name="lock-closed" size={24} color="gray" />
             </Icon>
           </InputContainer>
+
+          <RememberMeContainer>
+            <TouchableOpacity onPress={toggleRememberMe}>
+              <Ionicons
+                name={rememberMe ? 'checkbox' : 'square-outline'}
+                size={20}
+                color="white"
+              />
+            </TouchableOpacity>
+            <RememberMeText>Lembrar de mim</RememberMeText>
+          </RememberMeContainer>
+
+          <TouchableOpacity onPress={handleForgotPassword}>
+            <ForgotPasswordText>Esqueceu minha senha?</ForgotPasswordText>
+          </TouchableOpacity>
 
           <TouchableOpacity onPress={handleSubmit}>
             <ButtonContainer>
@@ -87,7 +106,7 @@ export const Login = () => {
             </ButtonContainer>
           </TouchableOpacity>
 
-          <GoogleLoginButton/>
+          <GoogleLoginButton />
 
           {message ? <Message>{message}</Message> : null}
         </Container>
@@ -95,5 +114,3 @@ export const Login = () => {
     </ImageBackground>
   )
 }
-
-export default Login
